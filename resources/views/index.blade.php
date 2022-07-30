@@ -16,14 +16,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" ></script>
 
-    <title>Asignment</title>
+    <title>Assignment</title>
 </head>
 
 <body>
     <div class="container-fluid">
         <div class="card">
             <div class="card-header">
-                <h3 class="text-center">Asignment</h3>
+                <h3 class="text-center">Assignment</h3>
             </div>
             <div class="card-body">
 
