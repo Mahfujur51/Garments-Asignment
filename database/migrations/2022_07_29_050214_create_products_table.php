@@ -22,11 +22,11 @@ class CreateProductsTable extends Migration
             $table->string('revise_date');
             $table->string('production_unit')->nullable();
             $table->string('fabric_ref')->nullable();
-            $table->integer('dye_factory')->default(0);
-            $table->boolean('pp_status')->default(0);
-            $table->boolean('fab_status')->default(0);
-            $table->boolean('acc_status')->default(0);
-            $table->boolean('prod_status')->default(0);
+            $table->integer('dye_factory')->nullable();
+            $table->string('pp_status')->nullable();
+            $table->string('fab_status')->nullable();
+            $table->string('acc_status')->nullable();
+            $table->string('prod_status')->nullable();
             $table->timestamps();
         });
     }
